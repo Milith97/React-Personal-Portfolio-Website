@@ -103,74 +103,6 @@ export default function Home() {
 
         </section>
 
-        {/*---------------------------------Services----------------------------------*/}
-        <section>
-          <div>
-            <h3 className=" text-9xl py-10 font-bold opacity-80 text-white ">
-              Services
-            </h3>
-          </div>
-
-          <div className='flex flex-row gap-5'>
-            {/* card 01 */}
-            <div className=" text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-gradient-to-l from-gray-400 via-gray-600 to-blue-800 ">
-              <Image
-                src={'/card1.jpg'}
-                width={350}
-                height={350}
-                alt="servie 1 img"
-                className=" inline py-5  "
-              />
-              <h3 className="text-2xl font-bold text-gray-200 ">
-                Ui/Ux Design
-              </h3>
-              <p className=" text-sm py-2 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                distinctio nihil fugiat ea perferendis qui nulla facere
-                consequatur
-              </p>
-            </div>
-
-            {/* card 02 */}
-            <div className="text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-400 via-gray-600 to-blue-800 ">
-              <Image
-                src={'/card2.jpg'}
-                width={350}
-                height={350}
-                alt="servie 1 img"
-                className=" inline py-5  "
-              />
-              <h3 className="text-2xl font-bold text-gray-200">
-                Mobile App Development
-              </h3>
-              <p className=" text-sm py-2 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                distinctio nihil fugiat ea perferendis qui nulla facere
-                consequatur
-              </p>
-            </div>
-
-            {/* card 03 */}
-            <div className="text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-gradient-to-r from-gray-400 via-gray-600 to-blue-800 ">
-              <Image
-                src={'/card3.jpg'}
-                width={350}
-                height={350}
-                alt="servie 1 img"
-                className=" inline py-5  "
-              />
-              <h3 className="text-2xl font-bold text-gray-200 ">
-                Web Development
-              </h3>
-              <p className=" text-sm py-2 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                distinctio nihil fugiat ea perferendis qui nulla facere
-                consequatur
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/*---------------------------------Education & Experiance----------------------------------*/}
 
         <section>
@@ -189,13 +121,13 @@ export default function Home() {
 
           <div className='flex flex-row gap-10 px-5 ml-7 mt-20 '>
             <div className='flex flex-row'>
-              <div className="max-w-sm rounded overflow-hidden shadow-lg ">
+              <div className=" max-w-sm rounded overflow-hidden shadow-lg ">
                 <Image
                   src={'/download2.png'}
                   width={250}
                   height={250}
                   alt="servie 1 img"
-                  className=" w-64  "
+                  className=" w-64 jus"
                 />
                 <div className=" mr-7 py-6">
                   <p className="text-white text-base">
@@ -275,6 +207,179 @@ export default function Home() {
             </div>
           </div>
 
+        </section>
+
+        {/*---------------------------------Portfolio----------------------------------*/}
+        <section>
+          <div>
+            <h3 className="  text-9xl font-bold opacity-80 text-gray-700 mt-28 ml-20">
+              PORTFOLIO
+            </h3>
+          </div>
+          <div>
+
+            <div>
+              <h3 className="  text-4xl font-bold opacity-80 text-gray-700 mt-10 ml-20">
+                React Native Projects
+              </h3>
+
+              <div className="grid gap-2 grid-cols-3">
+                <div className="flex-1 text-gray-700 text-center  px-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://github.com/Milith97/Student-Management-App-'>
+                      <Image
+                        src={'/p6.jpg'}
+                        width={250}
+                        height={250}
+                        alt="servie 1 img"
+                        className="  w-64 rounded-3xl  "
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="flex-1 text-gray-700 text-center  px-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://github.com/Milith97/Nic-Birthday-and-gender-extractor'>
+                      <Image
+                        src={'/p03.jpg'}
+                        width={350}
+                        height={350}
+                        alt="servie 1 img"
+                        className="  w-80 rounded-lg mt-4 "
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="flex-1 text-gray-700 text-center  px-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://github.com/Milith97/Food-Finder-App'>
+                      <Image
+                        src={'/p4.jpg'}
+                        width={250}
+                        height={250}
+                        alt="servie 1 img"
+                        className="  w-64 rounded-lg mt-2 "
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h3 className="  text-4xl font-bold opacity-80 text-gray-700 mt-10 ml-20">
+                Figma & AdobeXD Projects
+              </h3>
+              <div className="grid gap-3 grid-cols-3">
+                <div className="flex-1 text-gray-700 text-centerpx-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://dribbble.com/shots/20922159-Travel-Website-Home-Page'>
+                      <Image
+                        src={'/p5.png'}
+                        width={250}
+                        height={250}
+                        alt="servie 1 img"
+                        className="  w-64 rounded-lg mt-2  "
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="flex-1 text-gray-700 text-center  px-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://dribbble.com/shots/20923202-Sign-Up-Page'>
+                      <Image
+                        src={'/p2.png'}
+                        width={250}
+                        height={250}
+                        alt="servie 1 img"
+                        className="  w-64 rounded-lg mt-2 "
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex-1 text-gray-700 text-center px-4 py-2 m-2">
+                  <div className='flex flex-row justify-center'>
+                    <a href='https://dribbble.com/shots/20920266-Pizza-Home-Page-Design'>
+                      <Image
+                        src={'/p3.png'}
+                        width={250}
+                        height={250}
+                        alt="servie 1 img"
+                        className="  w-64 rounded-lg mt-2 "
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+        {/*---------------------------------Services----------------------------------*/}
+        <section>
+          <div>
+            <h3 className=" text-9xl py-10 font-bold opacity-80 text-gray-700 ml-20">
+              Services
+            </h3>
+          </div>
+
+          <div className='flex flex-row gap-5'>
+            {/* card 01 */}
+            <div className=" text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-gradient-to-l from-gray-400 via-gray-600 to-blue-800 ">
+              <Image
+                src={'/card1.jpg'}
+                width={350}
+                height={350}
+                alt="servie 1 img"
+                className=" inline py-5  "
+              />
+              <h3 className="text-2xl font-bold text-gray-200 ">
+                Ui/Ux Design
+              </h3>
+              <p className=" text-sm py-2 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                distinctio nihil fugiat ea perferendis qui nulla facere
+                consequatur
+              </p>
+            </div>
+
+            {/* card 02 */}
+            <div className="text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-400 via-gray-600 to-blue-800 ">
+              <Image
+                src={'/card2.jpg'}
+                width={350}
+                height={350}
+                alt="servie 1 img"
+                className=" inline py-5  "
+              />
+              <h3 className="text-2xl font-bold text-gray-200">
+                Mobile App Development
+              </h3>
+              <p className=" text-sm py-2 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                distinctio nihil fugiat ea perferendis qui nulla facere
+                consequatur
+              </p>
+            </div>
+
+            {/* card 03 */}
+            <div className="text-center shadow-lg p-5 rounded-xl my-6 w-1/3 h-1/3 bg-gradient-to-r from-gray-400 via-gray-600 to-blue-800 ">
+              <Image
+                src={'/card3.jpg'}
+                width={350}
+                height={350}
+                alt="servie 1 img"
+                className=" inline py-5  "
+              />
+              <h3 className="text-2xl font-bold text-gray-200 ">
+                Web Development
+              </h3>
+              <p className=" text-sm py-2 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                distinctio nihil fugiat ea perferendis qui nulla facere
+                consequatur
+              </p>
+            </div>
+          </div>
         </section>
       </main >
     </div>
