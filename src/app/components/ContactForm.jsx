@@ -49,7 +49,7 @@ export default function ContactForm() {
                         ></textarea>
                     </div>
 
-                    <button className=" bg-yellow-400 p-3 text-white font-bold ml-10 mr-10 " type="submit ">
+                    <button className=" bg-yellow-400 p-3 text-white font-bold ml-10 mr-10 shadow-xl shadow-yellow-100/20 " type="submit ">
                         Send
                     </button>
 
@@ -63,7 +63,7 @@ export default function ContactForm() {
                     width={550}
                     height={100}
                     alt="servie 1 img"
-                    className=" inline ml-3 "
+                    className=" inline ml-3 shadow-2xl "
                 />
 
 

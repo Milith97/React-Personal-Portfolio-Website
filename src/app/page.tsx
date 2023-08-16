@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { FaRegMoon } from 'react-icons/Fa'
-import ContactForm from "../app/components/ContactForm";
-
+import ContactForm from "../app/components/ContactForm"
+/* import Footer from "../app/components/Footer" */
 
 //Icon
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineDribbble, AiOutlineInstagram, AiOutlineWhatsApp, AiOutlinePhone } from "react-icons/ai"
@@ -126,14 +126,14 @@ export default function Home() {
           </div>
 
 
-          <div className='flex flex-col gap-8 p-10 lg:flex-row lg:flex-wrap'>
-            <div className="  rounded overflow-hidden shadow-lg  basis-1/6 flex-1 ">
+          <div className='flex flex-col gap-8 p-10 lg:flex-row lg:flex-wrap '>
+            <div className="  rounded overflow-hidden basis-1/6 flex-1  ">
               <Image
                 src={'/download2.png'}
                 width={250}
                 height={250}
                 alt="servie 1 img"
-                className=" w-64 jus"
+                className=" w-64"
               />
               <div className=" mr-7 py-6">
                 <p className="text-white text-base">
@@ -148,13 +148,13 @@ export default function Home() {
 
 
 
-            <div className=" rounded overflow-hidden shadow-lg  basis-1/6 flex-1">
+            <div className=" rounded overflow-hidden  basis-1/6 flex-1">
               <Image
                 src={'/download1.png'}
                 width={250}
                 height={250}
                 alt="servie 1 img"
-                className="  w-64   "
+                className="  w-64 "
               />
               <div className="mr-7 py-6">
                 <p className="text-white text-base">
@@ -170,7 +170,7 @@ export default function Home() {
 
 
 
-            <div className=" rounded overflow-hidden  basis-1/6 flex-1  ">
+            <div className=" rounded overflow-hidden basis-1/6 flex-1  ">
               <Image
                 src={'/down.jpg'}
                 width={250}
@@ -191,7 +191,7 @@ export default function Home() {
 
 
 
-            <div className=" rounded overflow-hidden shadow-lg  basis-1/6 flex-1 ">
+            <div className=" rounded overflow-hidden basis-1/6 flex-1 ">
               <Image
                 src={'/download5.jpg'}
                 width={250}
@@ -209,7 +209,7 @@ export default function Home() {
 
 
 
-            <div className=" rounded overflow-hidden shadow-lg  basis-1/6 flex-1">
+            <div className=" rounded overflow-hidden basis-1/6 flex-1">
               <Image
                 src={'/download4.png'}
                 width={250}
@@ -249,43 +249,43 @@ export default function Home() {
 
               <div className="flex flex-col gap-10  lg:flex-row lg:flex-wrap">
                 <div className="flex-1 text-gray-700 text-center px-6  m-2 basis-1/4 justify-center">
-              
-                    <a href='https://github.com/Milith97/Student-Management-App-'>
-                      <Image
-                        src={'/p6.jpg'}
-                        width={250}
-                        height={250}
-                        alt="servie 1 img"
-                        className="  w-64 rounded-3xl  "
-                      />
-                    </a>
-               
+
+                  <a href='https://github.com/Milith97/Student-Management-App-'>
+                    <Image
+                      src={'/p6.jpg'}
+                      width={250}
+                      height={250}
+                      alt="servie 1 img"
+                      className="  w-64 rounded-3xl  "
+                    />
+                  </a>
+
                 </div>
                 <div className="flex-1 text-gray-700 text-center  px-6  m-2 basis-1/4 justify-center">
-  
-                    <a href='https://github.com/Milith97/Nic-Birthday-and-gender-extractor'>
-                      <Image
-                        src={'/p03.jpg'}
-                        width={350}
-                        height={350}
-                        alt="servie 1 img"
-                        className="  w-80 rounded-lg mt-4 "
-                      />
-                    </a>
-                 
+
+                  <a href='https://github.com/Milith97/Nic-Birthday-and-gender-extractor'>
+                    <Image
+                      src={'/p03.jpg'}
+                      width={350}
+                      height={350}
+                      alt="servie 1 img"
+                      className="  w-80 rounded-lg mt-4 "
+                    />
+                  </a>
+
                 </div>
                 <div className="flex-1 text-gray-700 text-center  px-6  m-2 basis-1/4 justify-center">
-                  
-                    <a href='https://github.com/Milith97/Food-Finder-App'>
-                      <Image
-                        src={'/p4.jpg'}
-                        width={250}
-                        height={250}
-                        alt="servie 1 img"
-                        className="  w-64 rounded-lg mt-2 "
-                      />
-                    </a>
-                
+
+                  <a href='https://github.com/Milith97/Food-Finder-App'>
+                    <Image
+                      src={'/p4.jpg'}
+                      width={250}
+                      height={250}
+                      alt="servie 1 img"
+                      className="  w-64 rounded-lg mt-2 "
+                    />
+                  </a>
+
                 </div>
               </div>
               <h3 className="  text-4xl font-bold opacity-80 text-gray-700 mt-10 ml-10 ">
@@ -293,44 +293,44 @@ export default function Home() {
               </h3>
               <div className="flex flex-col gap-8 lg:flex-row lg:flex-wrap">
                 <div className="flex-1 text-gray-700 text-center px-6 py-2 m-2 basis-1/4 justify-center">
-          
-                    <a href='https://dribbble.com/shots/20922159-Travel-Website-Home-Page'>
-                      <Image
-                        src={'/p5.png'}
-                        width={250}
-                        height={250}
-                        alt="servie 1 img"
-                        className="  w-64 rounded-lg mt-2  "
-                      />
-                    </a>6
-             
+
+                  <a href='https://dribbble.com/shots/20922159-Travel-Website-Home-Page'>
+                    <Image
+                      src={'/p5.png'}
+                      width={250}
+                      height={250}
+                      alt="servie 1 img"
+                      className="  w-64 rounded-lg mt-2  "
+                    />
+                  </a>6
+
                 </div>
                 <div className="flex-1 text-gray-700 text-center  px-6 py-2 m-2 basis-1/4 justify-center">
-              
-                    <a href='https://dribbble.com/shots/20923202-Sign-Up-Page'>
-                      <Image
-                        src={'/p2.png'}
-                        width={250}
-                        height={250}
-                        alt="servie 1 img"
-                        className="  w-64 rounded-lg mt-2 "
-                      />
-                    </a>
-               
+
+                  <a href='https://dribbble.com/shots/20923202-Sign-Up-Page'>
+                    <Image
+                      src={'/p2.png'}
+                      width={250}
+                      height={250}
+                      alt="servie 1 img"
+                      className="  w-64 rounded-lg mt-2 "
+                    />
+                  </a>
+
                 </div>
 
                 <div className="flex-1 text-gray-700 text-center px-6 py-2 m-2 basis-1/4 justify-center">
-                 
-                    <a href='https://dribbble.com/shots/20920266-Pizza-Home-Page-Design'>
-                      <Image
-                        src={'/p3.png'}
-                        width={250}
-                        height={250}
-                        alt="servie 1 img"
-                        className="  w-64 rounded-lg mt-2 "
-                      />
-                    </a>
-        
+
+                  <a href='https://dribbble.com/shots/20920266-Pizza-Home-Page-Design'>
+                    <Image
+                      src={'/p3.png'}
+                      width={250}
+                      height={250}
+                      alt="servie 1 img"
+                      className="  w-64 rounded-lg mt-2 "
+                    />
+                  </a>
+
                 </div>
               </div>
 
@@ -341,7 +341,7 @@ export default function Home() {
         {/*---------------------------------Services----------------------------------*/}
         <section>
           <div>
-            <h3 className=" text-9xl py-10 font-bold opacity-80 text-gray-700 ml-20">
+            <h3 className=" text-9xl mt-5 font-bold opacity-80 text-gray-700 ml-20">
               Services
             </h3>
           </div>
@@ -354,7 +354,7 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt="servie 1 img"
-                className=" inline py-5  "
+                className=" inline py-5  shadow-2xl  "
               />
               <h3 className="text-2xl font-bold text-gray-200 ">
                 Ui/Ux Design
@@ -373,7 +373,7 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt="servie 1 img"
-                className=" inline py-5  "
+                className=" inline py-5  shadow-2xl "
               />
               <h3 className="text-2xl font-bold text-gray-200">
                 Mobile App Development
@@ -392,7 +392,7 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt="servie 1 img"
-                className=" inline py-5  "
+                className=" inline py-5  shadow-2xl "
               />
               <h3 className="text-2xl font-bold text-gray-200 ">
                 Web Development
@@ -418,6 +418,18 @@ export default function Home() {
           <ContactForm />
 
         </section>
+
+        {/*---------------------------------Contact----------------------------------*/}
+
+        <section>
+        <div className="flex flex-col justify-center items-center text-center  p-5 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
+                <h1 className=" text-white font-semibold">
+                    ©2023 All rights reserved | Build with ❤ by{"  Milith De Silva"}
+                   
+                </h1>
+            </div>
+        </section>
+
 
       </main >
     </div >
