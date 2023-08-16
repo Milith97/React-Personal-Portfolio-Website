@@ -46,7 +46,7 @@ export default function Home() {
 
           <div className='text-center p-2' >
             <h1 className=' md:text-6xl lg:text-7xl lg:mb-4 text-7xl font-bold text-white font-AnonymousPro  '> Milith De Silva</h1>
-            <h3 className='md:text-3xl text-2xl py-4 mr-8 text-yellow-400 ' >Ui/Ux Design | Mobile App Development | Web Development </h3>
+            <h3 className='md:text-3xl text-2xl mr-8 text-yellow-400 ' >Ui/Ux Design | Mobile App Development | Web Development </h3>
           </div>
 
 
@@ -348,7 +348,7 @@ export default function Home() {
 
           <div className='flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap'>
             {/* card 01 */}
-            <div className=" basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-6  bg-gradient-to-l from-gray-400 via-gray-600 to-blue-800 ">
+            <div className=" basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-3  bg-gradient-to-l from-gray-400 via-gray-600 to-blue-800 ">
               <Image
                 src={'/card1.jpg'}
                 width={350}
@@ -367,7 +367,7 @@ export default function Home() {
             </div>
 
             {/* card 02 */}
-            <div className="basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-6 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-400 via-gray-600 to-blue-800 ">
+            <div className="basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-6\3 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-400 via-gray-600 to-blue-800 ">
               <Image
                 src={'/card2.jpg'}
                 width={350}
@@ -386,7 +386,7 @@ export default function Home() {
             </div>
 
             {/* card 03 */}
-            <div className=" basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-6  bg-gradient-to-r from-gray-400 via-gray-600 to-blue-800 ">
+            <div className=" basis-1/4 flex-1 text-center shadow-lg p-5 rounded-xl my-3  bg-gradient-to-r from-gray-400 via-gray-600 to-blue-800 ">
               <Image
                 src={'/card3.jpg'}
                 width={350}
