@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { FaRegMoon } from 'react-icons/Fa'
-
+import ContactForm from "../app/components/ContactForm";
 
 //Icon
-import { AiOutlineGithub, AiFillLinkedin, AiOutlineDribbble, AiOutlineInstagram } from "react-icons/ai"
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineDribbble, AiOutlineInstagram, } from "react-icons/ai"
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
 
       </head>
 
-      <main className="font-poppins min-h-screen px-10 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black" >
+      <main className=" font-poppins min-h-screen px-10 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black" >
         <section>
 
           {/* navigation */}
@@ -43,7 +43,7 @@ export default function Home() {
 
           {/*---------------------------------Hero Section---------------------------------*/}
 
-          <div className='text-center p-3' >
+          <div className='text-center p-2' >
             <h1 className=' text-7xl font-bold text-white font-AnonymousPro  '> Milith De Silva</h1>
             <h3 className='text-2xl py-4 mr-8 text-yellow-400 ' >Ui/Ux Design | Mobile App Development | Web Development </h3>
           </div>
@@ -381,8 +381,22 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/*---------------------------------Contact----------------------------------*/}
+
+        <section> 
+
+          <div className='p-4 flex flex-row '>
+            <h3 className=" text-9xl py-10 font-bold opacity-80 text-gray-700 ml-20">
+              Contact
+            </h3>
+          </div>
+          <ContactForm />
+
+        </section>
+
       </main >
-    </div>
+    </div >
 
 
 
