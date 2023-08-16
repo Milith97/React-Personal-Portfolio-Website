@@ -1,7 +1,6 @@
 "use client";
 import Image from 'next/image'
 import { useState } from "react";
-import { BiPhoneCall, AiOutlineWhatsAp } from "react-icons/ai"
 
 export default function ContactForm() {
     const [fullname, setFullname] = useState("");
@@ -12,10 +11,10 @@ export default function ContactForm() {
 
     return (
 
-        <div className=" grid gap-2 grid-cols-2  border-x-8 border-y-8 border-yellow-300  ">
+        <div className="flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap border-x-8 border-y-8 border-yellow-300  ">
 
             <>
-                <form className="py-4 mt-2 flex flex-col gap-5 ml-10">
+                <form className=" basis-1/3 flex-1 py-4 mt-2 flex flex-col gap-3 ">
 
                     <div className="flex flex-col gap-2 p-3" >
                         <label className=" text-white" htmlFor="fullname">Full Name</label>
@@ -50,24 +49,21 @@ export default function ContactForm() {
                         ></textarea>
                     </div>
 
-                    <button className=" bg-yellow-400 p-3 text-white font-bold ml-10 mr-10" type="submit">
+                    <button className=" bg-yellow-400 p-3 text-white font-bold ml-10 mr-10 " type="submit ">
                         Send
                     </button>
 
                 </form >
 
-
             </>
 
-            <div className="flex flex-row  ">
+            <div className=" basis-1/3 flex-1 flex flex-row  ">
                 <Image
                     src={'/Map.jpg'}
                     width={550}
-                    height={20}
+                    height={100}
                     alt="servie 1 img"
-                    className=" inline py-3 ml-20 px-6"
-
-
+                    className=" inline ml-3 "
                 />
 
 
