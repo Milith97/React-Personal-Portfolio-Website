@@ -1,1 +1,1 @@
-This is personal website for using  React Next js, Tailwind CSS, 
+This is personal website for using  Next js, Tailwind CSS, 
